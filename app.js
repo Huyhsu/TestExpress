@@ -9,7 +9,8 @@ app.get("/", (req, res) => {
 });
 
 app.get("/test", (req, res) => {
-  res.send("This is for test.");
+  // res.send("This is for test.");
+  res.sendFile(path.join(__dirname, "index2.html"));
 });
 
 app.listen(5500, () => {
