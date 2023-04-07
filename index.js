@@ -1,9 +1,8 @@
 const express = require("express");
 const ejs = require("ejs");
 const path = require("path");
+const engine = require("ejs-locals");
 const app = express();
-
-let engine = require("ejs-locals");
 
 app.use(express.static(__dirname + "/public"));
 
@@ -18,7 +17,7 @@ app.set("view engine", "ejs");
 // });
 
 app.get("/", (req, res) => {
-  res.render("index.ejs");
+  res.render("index");
 });
 
 app.get("/test", (req, res) => {
