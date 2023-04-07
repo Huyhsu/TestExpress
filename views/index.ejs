@@ -10,8 +10,13 @@
   <body>
     <h1>Hello I am ejs test page content!</h1>
 
+    <% if(testdata !== null) { %>
     <p><%= testdata.firstName %></p>
     <img src="<%= testdata.imglink %>" alt="" />
+    <% } %>
+
+    <!-- <p><%= testdata.firstName %></p>
+    <img src="<%= testdata.imglink %>" alt="" /> -->
 
     <h1>Hello I am ejs test page content!</h1>
 

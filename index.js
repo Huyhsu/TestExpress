@@ -22,7 +22,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/tt", (req, res) => {
-  res.render("index.ejs", { title: "87484" });
+  res.render("index.ejs", { title: "87484", testdata: "" });
 });
 
 app.get("/test", (req, res) => {
