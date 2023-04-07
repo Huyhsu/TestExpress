@@ -7,7 +7,7 @@ const app = express();
 app.use(express.static(__dirname + "/public"));
 
 app.engine("ejs", engine);
-app.set("views", "./views");
+app.set("views", __dirname + "/views");
 app.set("view engine", "ejs");
 
 // app.use('/ntuedtd112', express.static(__dirname + '/public'));
@@ -17,7 +17,7 @@ app.set("view engine", "ejs");
 // });
 
 app.get("/", (req, res) => {
-  res.render("index");
+  res.render("index.ejs");
 });
 
 app.get("/test", (req, res) => {
