@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+}
+
+ul {
+  list-style: none;
+  list-style-type: none;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+}
+
+a {
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.navigation {
+  padding: 20px 0;
+}
+
+.social-icons i {
+  color: #2c2c2c;
+  font-size: 26px;
+}/*# sourceMappingURL=main.css.map */
