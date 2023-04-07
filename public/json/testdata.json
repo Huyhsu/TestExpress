@@ -2,5 +2,6 @@
   "firstName": "John",
   "lastName": "Smith",
   "sex": "male",
-  "age": 25
+  "age": 25,
+  "imglink": "img/testImg.png"
 }
