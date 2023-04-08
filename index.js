@@ -18,11 +18,11 @@ app.set("views", __dirname + "/views");
 app.set("view engine", "ejs");
 
 app.get("/", (req, res) => {
-  res.render("index.ejs", { title: "123", testdata: testJsonData });
+  res.render("index.ejs", { title: "首頁", testdata: testJsonData });
 });
 
-app.get("/tt", (req, res) => {
-  res.render("index.ejs", { title: "87484", testdata: "" });
+app.get("/project", (req, res) => {
+  res.render("project.ejs", { title: "展覽作品", testdata: testJsonData });
 });
 
 app.get("/test", (req, res) => {

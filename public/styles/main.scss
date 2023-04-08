@@ -34,3 +34,124 @@ a{
   color: #2c2c2c;
   font-size: 26px;
 }
+
+.portfolio-work {
+  min-height: 100vh;
+}
+
+.portfolio-menu{
+  // text-align: center;
+}
+
+.portfolio-work {
+  padding: 80px 0
+}
+
+.portfolio-work .block .portfolio-menu {
+  text-align: center
+}
+
+.portfolio-work .block .portfolio-menu .btn-group {
+  margin-bottom: 40px
+}
+
+.portfolio-work .block .portfolio-menu .btn-group .btn-primary {
+  color: #333;
+  border: 1px solid #acb9c4;
+  background: #fff;
+  font-size: 15px;
+  outline: 0;
+  border-radius: 0;
+  margin: 2px;
+  padding: 8px 25px;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease
+}
+
+.portfolio-work .block .portfolio-menu .btn-group .btn-check:checked+.btn-primary {
+  box-shadow: inset 0 3px 5px rgba(0,0,0,.125)
+}
+
+.portfolio-item {
+  position: relative;
+  padding: 0
+}
+
+.portfolio-item .block {
+  height: 260px
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: 100%;
+  max-height: 260px;
+  overflow: hidden;
+  justify-content: center;
+  display: flex;
+  // object-fit: scale-down;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 1000px) {
+  .portfolio-item .img {
+      height:56%;
+      min-height: 46%;
+      overflow: hidden;
+      justify-content: center;
+      display: flex;
+      // object-fit: scale-down;
+      object-fit: contain;
+  }
+}
+
+.portfolio-item:hover .portfolio-hover {
+  visibility: visible;
+  opacity: 1
+}
+
+.portfolio-item:hover .portfolio-content {
+  transform: translateY(-50%)
+}
+
+.portfolio-hover {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(60,55,55,.5);
+  visibility: hidden;
+  opacity: 0;
+  transition: .3s ease
+}
+
+.portfolio-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-40%);
+  text-align: center;
+  padding: 20px;
+  transition: inherit
+}
+
+.portfolio-content * {
+  color: #fff
+}
+
+.portfolio-content a {
+  display: block;
+  transition: .2s ease
+}
+
+.portfolio-content a i {
+  font-size: 30px
+}
+
+.portfolio-content a.h3 {
+  margin-top: 0
+}

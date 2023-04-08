@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>展覽作品</title>
+  </head>
+  <body>
+    <h1>Hello I am project page Content !</h1>
+    <section class="portfolio-work">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="block">
+              <div class="row portfolio-menu">
+                <div
+                  class="btn-group"
+                  role="group"
+                  aria-label="Basic radio toggle button group"
+                >
+                  <div class="col-md-12 text-center">
+                    <!-- All -->
+                    <input
+                      type="radio"
+                      name="shuffle-filter"
+                      id="all"
+                      class="btn-check"
+                      value="all"
+                      checked
+                    />
+                    <label class="btn btn-sm btn-primary" for="all">
+                      全部
+                    </label>
+                    <!-- Game -->
+                    <input
+                      type="radio"
+                      name="shuffle-filter"
+                      id="game"
+                      class="btn-check"
+                      value="game"
+                      checked
+                    />
+                    <label class="btn btn-sm btn-primary" for="game">
+                      遊戲
+                    </label>
+                    <!-- Animation -->
+                    <input
+                      type="radio"
+                      name="shuffle-filter"
+                      id="animation"
+                      class="btn-check"
+                      value="animation"
+                      checked
+                    />
+                    <label class="btn btn-sm btn-primary" for="animation">
+                      動畫
+                    </label>
+                    <!-- Website -->
+                    <input
+                      type="radio"
+                      name="shuffle-filter"
+                      id="website"
+                      class="btn-check"
+                      value="website"
+                      checked
+                    />
+                    <label class="btn btn-sm btn-primary" for="website">
+                      網頁
+                    </label>
+                    <!-- App -->
+                    <input
+                      type="radio"
+                      name="shuffle-filter"
+                      id="app"
+                      class="btn-check"
+                      value="app"
+                      checked
+                    />
+                    <label class="btn btn-sm btn-primary" for="app">
+                      行動程式
+                    </label>
+                    <!-- Plan -->
+                    <input
+                      type="radio"
+                      name="shuffle-filter"
+                      id="plan"
+                      class="btn-check"
+                      value="plan"
+                      checked
+                    />
+                    <label class="btn btn-sm btn-primary" for="plan">
+                      互動式企劃
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="row shuffle-wrapper shuffle">
+                <!-- 1 -->
+                <div
+                  class="col-md-4 portfolio-item shuffle-item"
+                  data-groups='["game"]'
+                >
+                  <div class="block">
+                    <img
+                      class="object-fit-scale"
+                      src="img/testProjectIntro.png"
+                      alt=""
+                    />
+                    <div class="portfolio-hover">
+                      <div class="portfolio-content">
+                        <a href="/">Chitta Exorcist</a>
+                        <p>123456</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- 2 -->
+                <div
+                  class="col-md-4 portfolio-item shuffle-item"
+                  data-groups='["game"]'
+                >
+                  <div class="block">
+                    <img class="object-fit-scale" src="img/logo.png" alt="" />
+                    <div class="portfolio-hover">
+                      <div class="portfolio-content">
+                        <a href="/">Chitta Exorcist</a>
+                        <p>445644</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--  -->
+                <div
+                  class="col-md-4 portfolio-item shuffle-item"
+                  data-groups='["game"]'
+                >
+                  <div class="block">
+                    <img class="object-fit-scale" src="img/logo.png" alt="" />
+                    <div class="portfolio-hover">
+                      <div class="portfolio-content">
+                        <a href="/">Chitta Exorcist</a>
+                        <p>445644</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--  -->
+                <div
+                  class="col-md-4 portfolio-item shuffle-item"
+                  data-groups='["app"]'
+                >
+                  <div class="block">
+                    <img class="object-fit-scale" src="img/logo.png" alt="" />
+                    <div class="portfolio-hover">
+                      <div class="portfolio-content">
+                        <a href="/">Chitta Exorcist</a>
+                        <p>445644</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--  -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Layout -->
+    <% layout("layout") %>
+  </body>
+</html>
