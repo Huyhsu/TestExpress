@@ -7,7 +7,6 @@
     <title>展覽作品</title>
   </head>
   <body>
-    <h1>Hello I am project page Content !</h1>
     <section class="portfolio-work">
       <div class="container">
         <div class="row">
@@ -96,10 +95,10 @@
                 </div>
               </div>
               <div class="row shuffle-wrapper shuffle">
-                <!-- 1 -->
+                <% for(var i=0; i< projects.length; i++){ %>
                 <div
                   class="col-md-4 portfolio-item shuffle-item"
-                  data-groups='["game"]'
+                  data-groups='["<%-projects[i].type %>"]'
                 >
                   <div class="block">
                     <img
@@ -109,58 +108,15 @@
                     />
                     <div class="portfolio-hover">
                       <div class="portfolio-content">
-                        <a href="/">Chitta Exorcist</a>
+                        <a href="/project/<%-projects[i].team %>"
+                          ><%-projects[i].projectName %></a
+                        >
                         <p>123456</p>
                       </div>
                     </div>
                   </div>
                 </div>
-                <!-- 2 -->
-                <div
-                  class="col-md-4 portfolio-item shuffle-item"
-                  data-groups='["game"]'
-                >
-                  <div class="block">
-                    <img class="object-fit-scale" src="img/logo.png" alt="" />
-                    <div class="portfolio-hover">
-                      <div class="portfolio-content">
-                        <a href="/">Chitta Exorcist</a>
-                        <p>445644</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!--  -->
-                <div
-                  class="col-md-4 portfolio-item shuffle-item"
-                  data-groups='["game"]'
-                >
-                  <div class="block">
-                    <img class="object-fit-scale" src="img/logo.png" alt="" />
-                    <div class="portfolio-hover">
-                      <div class="portfolio-content">
-                        <a href="/">Chitta Exorcist</a>
-                        <p>445644</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!--  -->
-                <div
-                  class="col-md-4 portfolio-item shuffle-item"
-                  data-groups='["app"]'
-                >
-                  <div class="block">
-                    <img class="object-fit-scale" src="img/logo.png" alt="" />
-                    <div class="portfolio-hover">
-                      <div class="portfolio-content">
-                        <a href="/">Chitta Exorcist</a>
-                        <p>445644</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!--  -->
+                <% } %>
               </div>
             </div>
           </div>

@@ -4,7 +4,10 @@ const path = require("path");
 const engine = require("ejs-locals");
 const app = express();
 
-const testJsonData = require(__dirname + "/public/json/testdata.json");
+// Projects
+const projects = require(__dirname + "/public/json/projects.json");
+
+const team8 = require(__dirname + "/public/json/projects/team8.json");
 
 // import testJsonData from
 
@@ -18,20 +21,18 @@ app.set("views", __dirname + "/views");
 app.set("view engine", "ejs");
 
 app.get("/", (req, res) => {
-  res.render("index.ejs", { title: "首頁", testdata: testJsonData });
+  res.render("index.ejs", { title: "首頁" });
 });
 
 app.get("/project", (req, res) => {
-  res.render("project.ejs", { title: "展覽作品", testdata: testJsonData });
+  res.render("project.ejs", { title: "展覽作品", projects: projects });
 });
 
-app.get("/test", (req, res) => {
-  res.sendFile(path.join(__dirname, "index2.html"));
-});
-
-app.get("/testparam", (req, res) => {
-  res.sendFile(path.join(__dirname, "index2.html"));
-});
+for (let i = 0; i < projects.length; i++) {
+  app.get("/project/" + projects[i].team, (req, res) => {
+    res.render("team.ejs", { title: projects[i].projectName, project: team8 });
+  });
+}
 
 // app.get("/", (req, res) => {
 //   res.send("This is for test.");

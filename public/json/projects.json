@@ -1,0 +1,67 @@
+[
+  {
+    "team": "team1",
+    "projectName": "焦土的旅居者",
+    "type": "game"
+  },
+  {
+    "team": "team2",
+    "projectName": "雙喜臨門",
+    "type": "animation"
+  },
+  {
+    "team": "team3",
+    "projectName": "撲克巫師盃",
+    "type": "game"
+  },
+  {
+    "team": "team4",
+    "projectName": "LOOKER 錄刻爾",
+    "type": "plan"
+  },
+  {
+    "team": "team5",
+    "projectName": "FIELD",
+    "type": "website"
+  },
+  {
+    "team": "team6",
+    "projectName": "虩（ㄒㄧˋ）",
+    "type": "animation"
+  },
+  {
+    "team": "team7",
+    "projectName": "復甦之地",
+    "type": "game"
+  },
+  {
+    "team": "team8",
+    "projectName": "伏心訣",
+    "type": "game"
+  },
+  {
+    "team": "team9",
+    "projectName": "風之奏鳴：四季花音",
+    "type": "game"
+  },
+  {
+    "team": "team10",
+    "projectName": "城市異旅",
+    "type": "game"
+  },
+  {
+    "team": "team11",
+    "projectName": "DTD Inc.",
+    "type": "game"
+  },
+  {
+    "team": "team12",
+    "projectName": "Minimal",
+    "type": "app"
+  },
+  {
+    "team": "team13",
+    "projectName": "9Knights",
+    "type": "app"
+  }
+]
