@@ -7,10 +7,6 @@ const app = express();
 // Projects
 const projects = require(__dirname + "/public/json/projects.json");
 
-const team8 = require(__dirname + "/public/json/projects/team8.json");
-
-// import testJsonData from
-
 // Public Folder
 app.use(express.static(__dirname + "/public"));
 // app.use('/ntuedtd112', express.static(__dirname + '/public'));
@@ -30,7 +26,10 @@ app.get("/project", (req, res) => {
 
 for (let i = 0; i < projects.length; i++) {
   app.get("/project/" + projects[i].team, (req, res) => {
-    res.render("team.ejs", { title: projects[i].projectName, project: team8 });
+    res.render("team.ejs", {
+      title: projects[i].projectName,
+      project: projects[i].projectDetails,
+    });
   });
 }
 
@@ -40,5 +39,5 @@ for (let i = 0; i < projects.length; i++) {
 // });
 
 app.listen(5500, () => {
-  console.log("Server Running On Port 5500");
+  console.log("Server is Running on Port 5500");
 });

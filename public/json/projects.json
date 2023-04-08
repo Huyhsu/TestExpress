@@ -1,67 +1,149 @@
 [
   {
+    "//_comment": "Team 01 ======================================================================================= Team 01",
     "team": "team1",
     "projectName": "焦土的旅居者",
-    "type": "game"
+    "projectFullName": "焦土的旅居者 Scorch-earth Sojourner",
+    "projectIntro": "",
+    "projectCover": "",
+    "type": "game",
+    "projectDetails": {
+      "name": "焦土的旅居者"
+    }
   },
   {
+    "//_comment": "Team 02 ======================================================================================= Team 02",
     "team": "team2",
     "projectName": "雙喜臨門",
-    "type": "animation"
+    "projectIntro": "",
+    "projectCover": "",
+    "type": "animation",
+    "projectDetails": {
+      "name": "雙喜臨門"
+    }
   },
   {
+    "//_comment": "Team 03 ======================================================================================= Team 03",
     "team": "team3",
     "projectName": "撲克巫師盃",
-    "type": "game"
+    "projectIntro": "",
+    "projectCover": "",
+    "type": "game",
+    "projectDetails": {
+      "name": "撲克巫師盃"
+    }
   },
   {
+    "//_comment": "Team 04 ======================================================================================= Team 04",
     "team": "team4",
-    "projectName": "LOOKER 錄刻爾",
-    "type": "plan"
+    "projectName": "L00KER 錄刻爾",
+    "projectIntro": "",
+    "projectCover": "",
+    "type": "plan",
+    "projectDetails": {
+      "name": "L00KER 錄刻爾"
+    }
   },
   {
+    "//_comment": "Team 05 ======================================================================================= Team 05",
     "team": "team5",
     "projectName": "FIELD",
-    "type": "website"
+    "projectIntro": "",
+    "projectCover": "",
+    "type": "website",
+    "projectDetails": {
+      "name": "FIELD"
+    }
   },
   {
+    "//_comment": "Team 06 ======================================================================================= Team 06",
     "team": "team6",
     "projectName": "虩（ㄒㄧˋ）",
-    "type": "animation"
+    "projectIntro": "",
+    "projectCover": "",
+    "type": "animation",
+    "projectDetails": {
+      "name": "虩（ㄒㄧˋ）"
+    }
   },
   {
+    "//_comment": "Team 07 ======================================================================================= Team 07",
     "team": "team7",
     "projectName": "復甦之地",
-    "type": "game"
+    "projectIntro": "",
+    "projectCover": "",
+    "type": "game",
+    "projectDetails": {
+      "name": "復甦之地"
+    }
   },
   {
+    "//_comment": "Team 08 ======================================================================================= Team 08",
     "team": "team8",
     "projectName": "伏心訣",
-    "type": "game"
+    "projectFullName": "伏心訣 Chitta Exorcist",
+    "projectIntro": "伏心訣伏心訣伏心訣伏心訣伏心訣",
+    "projectCover": "/img/projectsCover/team8Cover.png",
+    "type": "game",
+    "projectDetails": {
+      "name": "伏心訣"
+    }
   },
   {
+    "//_comment": "Team 09 ======================================================================================= Team 09",
     "team": "team9",
     "projectName": "風之奏鳴：四季花音",
-    "type": "game"
+    "projectFullName": "風之奏鳴：四季花音 Quartet of Appoggiatura",
+    "projectIntro": "",
+    "projectCover": "",
+    "type": "game",
+    "projectDetails": {
+      "name": "風之奏鳴：四季花音"
+    }
   },
   {
+    "//_comment": "Team 10 ======================================================================================= Team 10",
     "team": "team10",
     "projectName": "城市異旅",
-    "type": "game"
+    "projectFullName": "城市異旅 Hazepolis",
+    "projectIntro": "",
+    "projectCover": "",
+    "type": "game",
+    "projectDetails": {
+      "name": "城市異旅"
+    }
   },
   {
+    "//_comment": "Team 11 ======================================================================================= Team 11",
     "team": "team11",
     "projectName": "DTD Inc.",
-    "type": "game"
+    "projectIntro": "",
+    "projectCover": "",
+    "type": "game",
+    "projectDetails": {
+      "name": "DTD Inc."
+    }
   },
   {
+    "//_comment": "Team 12 ======================================================================================= Team 12",
     "team": "team12",
     "projectName": "Minimal",
-    "type": "app"
+    "projectIntro": "",
+    "projectCover": "",
+    "type": "app",
+    "projectDetails": {
+      "name": "Minimal"
+    }
   },
   {
+    "//_comment": "Team 13 ======================================================================================= Team 13",
     "team": "team13",
     "projectName": "9Knights",
-    "type": "app"
+    "projectIntro": "",
+    "projectCover": "",
+    "type": "app",
+    "projectDetails": {
+      "name": "9Knights"
+    }
   }
 ]

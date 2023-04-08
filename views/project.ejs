@@ -1,129 +1,130 @@
-<!DOCTYPE html>
-<html lang="zh">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>展覽作品</title>
-  </head>
-  <body>
-    <section class="portfolio-work">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="block">
-              <div class="row portfolio-menu">
-                <div
-                  class="btn-group"
-                  role="group"
-                  aria-label="Basic radio toggle button group"
-                >
-                  <div class="col-md-12 text-center">
-                    <!-- All -->
-                    <input
-                      type="radio"
-                      name="shuffle-filter"
-                      id="all"
-                      class="btn-check"
-                      value="all"
-                      checked
-                    />
-                    <label class="btn btn-sm btn-primary" for="all">
-                      全部
-                    </label>
-                    <!-- Game -->
-                    <input
-                      type="radio"
-                      name="shuffle-filter"
-                      id="game"
-                      class="btn-check"
-                      value="game"
-                      checked
-                    />
-                    <label class="btn btn-sm btn-primary" for="game">
-                      遊戲
-                    </label>
-                    <!-- Animation -->
-                    <input
-                      type="radio"
-                      name="shuffle-filter"
-                      id="animation"
-                      class="btn-check"
-                      value="animation"
-                      checked
-                    />
-                    <label class="btn btn-sm btn-primary" for="animation">
-                      動畫
-                    </label>
-                    <!-- Website -->
-                    <input
-                      type="radio"
-                      name="shuffle-filter"
-                      id="website"
-                      class="btn-check"
-                      value="website"
-                      checked
-                    />
-                    <label class="btn btn-sm btn-primary" for="website">
-                      網頁
-                    </label>
-                    <!-- App -->
-                    <input
-                      type="radio"
-                      name="shuffle-filter"
-                      id="app"
-                      class="btn-check"
-                      value="app"
-                      checked
-                    />
-                    <label class="btn btn-sm btn-primary" for="app">
-                      行動程式
-                    </label>
-                    <!-- Plan -->
-                    <input
-                      type="radio"
-                      name="shuffle-filter"
-                      id="plan"
-                      class="btn-check"
-                      value="plan"
-                      checked
-                    />
-                    <label class="btn btn-sm btn-primary" for="plan">
-                      互動式企劃
-                    </label>
-                  </div>
+<body>
+  <section class="portfolio-work">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="block">
+            <div class="row portfolio-menu">
+              <div
+                class="btn-group"
+                role="group"
+                aria-label="Basic radio toggle button group"
+              >
+                <div class="col-md-12 text-center">
+                  <!-- All -->
+                  <input
+                    type="radio"
+                    name="shuffle-filter"
+                    id="all"
+                    class="btn-check"
+                    value="all"
+                    checked
+                  />
+                  <label class="btn btn-sm btn-primary" for="all"> 全部 </label>
+                  <!-- Game -->
+                  <input
+                    type="radio"
+                    name="shuffle-filter"
+                    id="game"
+                    class="btn-check"
+                    value="game"
+                    checked
+                  />
+                  <label class="btn btn-sm btn-primary" for="game">
+                    遊戲
+                  </label>
+                  <!-- Animation -->
+                  <input
+                    type="radio"
+                    name="shuffle-filter"
+                    id="animation"
+                    class="btn-check"
+                    value="animation"
+                    checked
+                  />
+                  <label class="btn btn-sm btn-primary" for="animation">
+                    動畫
+                  </label>
+                  <!-- Website -->
+                  <input
+                    type="radio"
+                    name="shuffle-filter"
+                    id="website"
+                    class="btn-check"
+                    value="website"
+                    checked
+                  />
+                  <label class="btn btn-sm btn-primary" for="website">
+                    網頁
+                  </label>
+                  <!-- App -->
+                  <input
+                    type="radio"
+                    name="shuffle-filter"
+                    id="app"
+                    class="btn-check"
+                    value="app"
+                    checked
+                  />
+                  <label class="btn btn-sm btn-primary" for="app">
+                    行動程式
+                  </label>
+                  <!-- Plan -->
+                  <input
+                    type="radio"
+                    name="shuffle-filter"
+                    id="plan"
+                    class="btn-check"
+                    value="plan"
+                    checked
+                  />
+                  <label class="btn btn-sm btn-primary" for="plan">
+                    互動式企劃
+                  </label>
                 </div>
               </div>
-              <div class="row shuffle-wrapper shuffle">
-                <% for(var i=0; i< projects.length; i++){ %>
-                <div
-                  class="col-md-4 portfolio-item shuffle-item"
-                  data-groups='["<%-projects[i].type %>"]'
-                >
-                  <div class="block">
-                    <img
-                      class="object-fit-scale"
-                      src="img/testProjectIntro.png"
-                      alt=""
-                    />
-                    <div class="portfolio-hover">
-                      <div class="portfolio-content">
-                        <a href="/project/<%-projects[i].team %>"
-                          ><%-projects[i].projectName %></a
-                        >
-                        <p>123456</p>
-                      </div>
+            </div>
+            <div class="row shuffle-wrapper shuffle">
+              <% for(var i=0; i< projects.length; i++){ %>
+              <div
+                class="col-md-4 portfolio-item shuffle-item"
+                data-groups='["<%-projects[i].type %>"]'
+              >
+                <div class="block">
+                  <img
+                    class="object-fit-scale"
+                    src="<%-projects[i].projectCover %>"
+                    alt="<%-projects[i].projectName %>"
+                  />
+                  <div class="portfolio-hover">
+                    <div class="portfolio-content">
+                      <a href="/project/<%-projects[i].team %>"
+                        ><%-projects[i].projectName %></a
+                      >
+                      <p><%-projects[i].projectIntro %></p>
                     </div>
                   </div>
                 </div>
-                <% } %>
               </div>
+              <% } %>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- Layout -->
-    <% layout("layout") %>
-  </body>
-</html>
+    </div>
+  </section>
+
+  <% layout("layout") %>
+
+  <!-- Jquery -->
+  <script
+    src="https://code.jquery.com/jquery-3.6.4.min.js"
+    integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+    crossorigin="anonymous"
+  ></script>
+  <!-- Shuffle -->
+  <script src="https://unpkg.com/shufflejs@6.1.0/dist/shuffle.js"></script>
+
+  <!-- My js -->
+  <script src="/js/project.js"></script>
+</body>
