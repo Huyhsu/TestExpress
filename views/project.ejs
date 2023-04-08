@@ -1,10 +1,57 @@
 <body>
-  <section class="portfolio-work">
+  <!-- <section class="custom-carousel">
+    <div class="container-fluid gx-0">
+      <div class="row d-flex justify-content-center">
+        <div class="col d-flex justify-content-center">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide pointer-event w-100"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+            </div>
+            <div class="carousel-inner hz-300">
+              <div class="carousel-item active">
+                <img
+                  class="d-block w-100 object-fit-cover"
+                  src="/img/1920_400.png"
+                  alt="Slide 1"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100 object-fit-cover"
+                  src="/img/projectsCover/team8Cover.png"
+                  alt="Slide 2"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- ========================================================================================================== -->
+  <section class="portfolio-work pt-5">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <div class="block">
-            <div class="row portfolio-menu">
+          <div class="d-block">
+            <div class="row portfolio-menu mb-5">
               <div
                 class="btn-group"
                 role="group"
@@ -20,17 +67,19 @@
                     value="all"
                     checked
                   />
-                  <label class="btn btn-sm btn-primary" for="all"> 全部 </label>
+                  <label class="btn btn-md btn-secondary" for="all">
+                    全部
+                  </label>
                   <!-- Game -->
                   <input
                     type="radio"
                     name="shuffle-filter"
                     id="game"
+                    autocomplete="off"
                     class="btn-check"
                     value="game"
-                    checked
                   />
-                  <label class="btn btn-sm btn-primary" for="game">
+                  <label class="btn btn-md btn-secondary" for="game">
                     遊戲
                   </label>
                   <!-- Animation -->
@@ -38,11 +87,11 @@
                     type="radio"
                     name="shuffle-filter"
                     id="animation"
+                    autocomplete="off"
                     class="btn-check"
                     value="animation"
-                    checked
                   />
-                  <label class="btn btn-sm btn-primary" for="animation">
+                  <label class="btn btn-md btn-secondary" for="animation">
                     動畫
                   </label>
                   <!-- Website -->
@@ -50,11 +99,11 @@
                     type="radio"
                     name="shuffle-filter"
                     id="website"
+                    autocomplete="off"
                     class="btn-check"
                     value="website"
-                    checked
                   />
-                  <label class="btn btn-sm btn-primary" for="website">
+                  <label class="btn btn-md btn-secondary" for="website">
                     網頁
                   </label>
                   <!-- App -->
@@ -62,11 +111,11 @@
                     type="radio"
                     name="shuffle-filter"
                     id="app"
+                    autocomplete="off"
                     class="btn-check"
                     value="app"
-                    checked
                   />
-                  <label class="btn btn-sm btn-primary" for="app">
+                  <label class="btn btn-md btn-secondary" for="app">
                     行動程式
                   </label>
                   <!-- Plan -->
@@ -74,11 +123,11 @@
                     type="radio"
                     name="shuffle-filter"
                     id="plan"
+                    autocomplete="off"
                     class="btn-check"
                     value="plan"
-                    checked
                   />
-                  <label class="btn btn-sm btn-primary" for="plan">
+                  <label class="btn btn-md btn-secondary" for="plan">
                     互動式企劃
                   </label>
                 </div>
@@ -90,9 +139,9 @@
                 class="col-md-4 portfolio-item shuffle-item"
                 data-groups='["<%-projects[i].type %>"]'
               >
-                <div class="block">
+                <div class="d-block hz-240 p-1">
                   <img
-                    class="object-fit-scale"
+                    class="object-fit-cover"
                     src="<%-projects[i].projectCover %>"
                     alt="<%-projects[i].projectName %>"
                   />

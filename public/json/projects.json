@@ -5,7 +5,7 @@
     "projectName": "焦土的旅居者",
     "projectFullName": "焦土的旅居者 Scorch-earth Sojourner",
     "projectIntro": "",
-    "projectCover": "",
+    "projectCover": "/img/projectsCover/team1Cover.png",
     "type": "game",
     "projectDetails": {
       "name": "焦土的旅居者"
@@ -16,7 +16,7 @@
     "team": "team2",
     "projectName": "雙喜臨門",
     "projectIntro": "",
-    "projectCover": "",
+    "projectCover": "/img/projectsCover/team2Cover.png",
     "type": "animation",
     "projectDetails": {
       "name": "雙喜臨門"
@@ -27,7 +27,7 @@
     "team": "team3",
     "projectName": "撲克巫師盃",
     "projectIntro": "",
-    "projectCover": "",
+    "projectCover": "/img/projectsCover/team3Cover.png",
     "type": "game",
     "projectDetails": {
       "name": "撲克巫師盃"
@@ -38,7 +38,7 @@
     "team": "team4",
     "projectName": "L00KER 錄刻爾",
     "projectIntro": "",
-    "projectCover": "",
+    "projectCover": "/img/projectsCover/team4Cover.png",
     "type": "plan",
     "projectDetails": {
       "name": "L00KER 錄刻爾"
@@ -49,7 +49,7 @@
     "team": "team5",
     "projectName": "FIELD",
     "projectIntro": "",
-    "projectCover": "",
+    "projectCover": "/img/projectsCover/team5Cover.png",
     "type": "website",
     "projectDetails": {
       "name": "FIELD"
@@ -60,7 +60,7 @@
     "team": "team6",
     "projectName": "虩（ㄒㄧˋ）",
     "projectIntro": "",
-    "projectCover": "",
+    "projectCover": "/img/projectsCover/team6Cover.png",
     "type": "animation",
     "projectDetails": {
       "name": "虩（ㄒㄧˋ）"
@@ -71,7 +71,7 @@
     "team": "team7",
     "projectName": "復甦之地",
     "projectIntro": "",
-    "projectCover": "",
+    "projectCover": "/img/projectsCover/team7Cover.png",
     "type": "game",
     "projectDetails": {
       "name": "復甦之地"
@@ -95,7 +95,7 @@
     "projectName": "風之奏鳴：四季花音",
     "projectFullName": "風之奏鳴：四季花音 Quartet of Appoggiatura",
     "projectIntro": "",
-    "projectCover": "",
+    "projectCover": "/img/projectsCover/team9Cover.png",
     "type": "game",
     "projectDetails": {
       "name": "風之奏鳴：四季花音"
@@ -107,7 +107,7 @@
     "projectName": "城市異旅",
     "projectFullName": "城市異旅 Hazepolis",
     "projectIntro": "",
-    "projectCover": "",
+    "projectCover": "/img/projectsCover/team10Cover.png",
     "type": "game",
     "projectDetails": {
       "name": "城市異旅"
@@ -118,7 +118,7 @@
     "team": "team11",
     "projectName": "DTD Inc.",
     "projectIntro": "",
-    "projectCover": "",
+    "projectCover": "/img/projectsCover/team11Cover.png",
     "type": "game",
     "projectDetails": {
       "name": "DTD Inc."
@@ -129,7 +129,7 @@
     "team": "team12",
     "projectName": "Minimal",
     "projectIntro": "",
-    "projectCover": "",
+    "projectCover": "/img/projectsCover/team12Cover.png",
     "type": "app",
     "projectDetails": {
       "name": "Minimal"
@@ -140,7 +140,7 @@
     "team": "team13",
     "projectName": "9Knights",
     "projectIntro": "",
-    "projectCover": "",
+    "projectCover": "/img/projectsCover/team13Cover.png",
     "type": "app",
     "projectDetails": {
       "name": "9Knights"
